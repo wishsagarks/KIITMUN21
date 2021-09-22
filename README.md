@@ -1,4 +1,4 @@
-# KIIT MODEL UNITED NATIONS 2020 
+# KIIT MODEL UNITED NATIONS 2021
 ## Website Official Repository `www.kiitmun.org `
 
 
