@@ -1,4 +1,66 @@
-<!DOCTYPE html>
+<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+
+            <a class="navbar-brand" href="/">
+                <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
+                <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2"
+                    class="nav-logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="" role="button">
+                    <i class="fa fa-bars toggle-icon" aria-hidden="true"></i>
+                </span>
+            </button>
+
+
+            <div class="collapse navbar-collapse " id="navbar">
+                <ul style="margin-left: 10vw;" class="navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a class="menu-item active" href="#">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="menu-item" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <!-- <a class="menu-item" data-toggle="dropdown">eMun</a> -->
+                        <!-- <ul class="dropdown-menu">
+                            <li><a href="committees.html" class="dropdown-item">Committees</li></a>
+                            <li><a href="agenda.html" class="dropdown-item">Agenda</li></a>
+                            <li><a href="eb.html" class="dropdown-item">Executive Board</li></a>
+                            <li><a href="study-guide.html" class="dropdown-item">Study Guide</a></li>
+                            <li><a href="newsletter.html" class="dropdown-item">Newsletter</a></li>
+                            <li><a href="rules-and-regulations.html" class="dropdown-item">Rules and Regulations</a>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="menu-item" href="gallery.php">Gallery</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="menu-item" data-toggle="dropdown">Partners</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="sponsors.html" class="dropdown-item">Sponsors</li></a>
+                            <li><a href="collaborators.html" class="dropdown-item">Collaborators</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="menu-item" href="campus-ambassador.php">Campus Ambassador</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="menu-item" href="contact.php">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="menu-item" href="login.php">Login</a>
+                    </li>
+                    <li class="nav-item dropdown-btn">
+                        <a class="menu-item dropdown-btn-item" href="registration.php">Registrations</a>
+                    </li>
+                    <li class="dark">
+                        <img src="assets/img/sun.png" id="icon" .mx-2>
+                    </li>
+            </div>
+        </nav><!DOCTYPE html>
 <html>
 
 <head>
@@ -127,7 +189,7 @@
                     <li class="nav-item">
                         <a class="menu-item" href="about.html">About</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="menu-item" data-toggle="dropdown">eMun</a>
                         <ul class="dropdown-menu">
                             <li><a href="committees.html" class="dropdown-item">Committees</li></a>
@@ -136,7 +198,7 @@
                             <li><a href="study-guide.html" class="dropdown-item">Study Guide</a></li>
                             <li><a href="newsletter.html" class="dropdown-item">Newsletter</a></li>
                             <li><a href="rules-and-regulations.html" class="dropdown-item">Rules and Regulations</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -144,14 +206,14 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="menu-item" data-toggle="dropdown">Partners</a>
-                        <ul class="dropdown-menu">
+                        <!-- <ul class="dropdown-menu">
                             <li><a href="sponsors.html" class="dropdown-item">Sponsors</li></a>
                             <li><a href="collaborators.html" class="dropdown-item">Collaborators</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="menu-item" href="campus-ambassador.php">Campus Ambassador</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="menu-item" href="contact.php">Contact</a>
                     </li>
@@ -182,18 +244,18 @@
             </div>
         </div>
 
-        <section id="contact-second">
+        <!-- <section id="contact-second">
             <div class="m-auto">
                 <h1>Registration <br><b>Closed</h1>
                 <hr>
             </div>
-        </section>
+        </section> -->
 
-        <!-- <section id="committees-second">
+        <section id="committees-second">
             <h1 align="center">
                 Coming <b>Soon</b>
             </h1>
-        </section> -->
+        </section>
 
 
         <div class="footer-copyright">
