@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="darkM.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -86,7 +87,7 @@
            <img src="./assets/img/loader.gif">
         </section>
              
-        <section class="body-content">
+        <section class="body-content darkmode"id="main">
             <nav class="navbar navbar-expand-lg navbar-light">
                 
                 <a class="navbar-brand" href="/">
@@ -143,6 +144,9 @@
                       <li class="nav-item dropdown-btn">
                           <a class="menu-item dropdown-btn-item" href="registration.php">Registrations</a>
                       </li>
+                      <li class="dark">
+                        <img src="assets/img/sun.png" id="icon">
+                    </li>
                   </div>
               </nav>
 
@@ -203,9 +207,19 @@
         var viewpdf = $("#viewpdf");
         PDFObject.embed("./assets/pdf/newsletter.pdf" ,viewpdf)
     </script>
-
-    
-
-
+     <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function () {
+          
+            document.getElementById("main").classList.toggle("darkmode");
+            if (document.getElementById("main").classList.contains("darkmode")) {
+                icon.src = "assets/img/sun.png";
+            }
+            else {
+                icon.src ="assets/img/moon.png";
+            }
+        }
+    </script>
 </body>
+
 </html>
