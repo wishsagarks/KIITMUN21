@@ -84,7 +84,7 @@
                 
                 <a class="navbar-brand" href="/">
                     <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
-                    <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2" class="nav-logo">
+                    <img style="height:80px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2" class="nav-logo">
                 </a>
             
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
