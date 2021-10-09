@@ -28,6 +28,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/index2019.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="darkM.css">
 
     <!-- Custom JS -->
     <script src="./assets/js/index.js"></script>
@@ -84,7 +85,7 @@
         <img src="./assets/img/loader.gif">
     </section>
 
-    <section class="body-content">
+    <section class="body-content dark">
         <nav class="navbar navbar-expand-lg navbar-light">
 
             <a class="navbar-brand" href="/">
@@ -107,7 +108,7 @@
                     <li class="nav-item">
                         <a class="menu-item" href="about.html">About</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="menu-item" data-toggle="dropdown">eMun</a>
                         <ul class="dropdown-menu">
                             <li><a href="committees.html" class="dropdown-item">Committees</li></a>
@@ -117,20 +118,20 @@
                             <li><a href="newsletter.html" class="dropdown-item">Newsletter</a></li>
                             <li><a href="rules-and-regulations.html" class="dropdown-item">Rules and Regulations</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="menu-item active" href="#">Gallery</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="menu-item" data-toggle="dropdown">Partners</a>
                         <ul class="dropdown-menu">
                             <li><a href="sponsors.html" class="dropdown-item">Sponsors</li></a>
                             <li><a href="collaborators.html" class="dropdown-item">Collaborators</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
+                    </li> -->
+                    <!-- <li class="nav-item">
                         <a class="menu-item" href="campus-ambassador.php">Campus Ambassador</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="menu-item" href="contact.php">Contact</a>
                     </li>

@@ -1,3 +1,6 @@
+<head>
+<link rel="stylesheet" href="darkM.css">
+</head>
 <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
 
             <a class="navbar-brand" href="/">
@@ -165,7 +168,7 @@
         <img src="./assets/img/loader.gif">
     </section>
 
-    <section class="body-content">
+    <section class="body-content dark">
         <nav class="navbar navbar-expand-lg navbar-light">
 
             <a class="navbar-brand" href="/">
