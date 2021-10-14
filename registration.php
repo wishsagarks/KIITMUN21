@@ -185,7 +185,7 @@
 </button>
 
 
-<div class="collapse navbar-collapse " id="navbar">
+<div class="collapse navbar-collapse " >
     <ul style="margin-left: 10vw;" class="navbar-nav navbar-right">
         <li class="nav-item">
             <a class="menu-item active" href="#">Home </a>
