@@ -1,7 +1,7 @@
 <head>
 <link rel="stylesheet" href="darkM.css">
 </head>
-<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+<nav class="navbar navbar-expand-lg navbar-light" >
 
             <a class="navbar-brand" href="/">
                 <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
@@ -17,7 +17,7 @@
             </button>
 
 
-            <div class="collapse navbar-collapse " id="navbar">
+            <div class="collapse navbar-collapse " >
                 <ul style="margin-left: 10vw;" class="navbar-nav navbar-right">
                     <li class="nav-item">
                         <a class="menu-item active" href="#">Home </a>
