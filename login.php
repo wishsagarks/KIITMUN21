@@ -6,7 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title> KIIT eMUN </title>	
-	<meta name='description' content="Official Website of KIITMUN 2020">
+	<meta name='description' content="Official Website of KIITMUN 2021">
 
 
 
@@ -90,7 +90,7 @@
 		<img src="./assets/img/loader.gif">
 	 </section>
 		  
-	<section class="body-content dark">
+	<section class="body-content darkmode">
 		<nav class="navbar navbar-expand-lg navbar-light">
 			
 			<a class="navbar-brand" href="/">
@@ -194,8 +194,8 @@
 					href="https://www.linkedin.com/in/kiitmun/" target="_blank"><img
 						src="./assets/img/footer/li.png" height="55" width="55"></a></li>
 		</ul>
-			<center>
-			Copyright 2020 &copy; KIIT International Model United Nations
+		<center id="cr">
+			Copyright 2021 &copy; KIIT International Model United Nations
 			<br><a href="copyright.html" target="_blank">PRIVACY POLICY</a>
 			</center>
 		</div>

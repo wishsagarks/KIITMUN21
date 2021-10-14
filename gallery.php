@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title> KIIT eMUN </title>
-    <meta name='description' content="Official Website of KIITMUN 2020">
+    <meta name='description' content="Official Website of KIITMUN 2021">
 
 
 
@@ -85,7 +85,7 @@
         <img src="./assets/img/loader.gif">
     </section>
 
-    <section class="body-content dark">
+    <section class="body-content darkmode">
         <nav class="navbar navbar-expand-lg navbar-light">
 
             <a class="navbar-brand" href="/">
