@@ -79,7 +79,7 @@
         <img src="./assets/img/loader.gif">
     </section>
 
-    <section class="body-content dark">
+    <section class="body-content darkmode">
 
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-light">
