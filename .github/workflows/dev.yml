@@ -29,6 +29,6 @@ jobs:
       - name: Deploy to mun/dev
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          ftp-server: ftp://ftp.kiitmun.org/dev/
+          ftp-server: ftp://ftp.kiitmun.org/httpdocs/dev/
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}

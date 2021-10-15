@@ -1,4 +1,69 @@
-<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="darkM.css">
+</head>
+<nav class="navbar navbar-expand-lg navbar-light" >
+
+<a class="navbar-brand" href="/">
+   <img style="height:47px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
+   <img style="height:70px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2"
+       class="nav-logo">
+</a>
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+   aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="" role="button">
+       <i class="fa fa-bars toggle-icon" aria-hidden="true"></i>
+   </span>
+</button>
+
+
+<div class="collapse navbar-collapse " id="navbar">
+   <ul style="margin-left: 10vw;" class="navbar-nav navbar-right">
+       <li class="nav-item">
+           <a class="menu-item active" href="index.html">Home </a>
+       </li>
+       <li class="nav-item">
+           <a class="menu-item" href="about.html">About</a>
+       </li>
+       <li class="nav-item dropdown">
+           <!-- <a class="menu-item" data-toggle="dropdown">eMun</a> -->
+           <!-- <ul class="dropdown-menu">
+               <li><a href="committees.html" class="dropdown-item">Committees</li></a>
+               <li><a href="agenda.html" class="dropdown-item">Agenda</li></a>
+               <li><a href="eb.html" class="dropdown-item">Executive Board</li></a>
+               <li><a href="study-guide.html" class="dropdown-item">Study Guide</a></li>
+               <li><a href="newsletter.html" class="dropdown-item">Newsletter</a></li>
+               <li><a href="rules-and-regulations.html" class="dropdown-item">Rules and Regulations</a>
+               </li>
+           </ul> -->
+       </li>
+       <li class="nav-item">
+           <a class="menu-item" href="gallery.php">Gallery</a>
+       </li>
+       <!-- <li class="nav-item dropdown">
+           <a class="menu-item" data-toggle="dropdown">Partners</a>
+           <ul class="dropdown-menu">
+               <li><a href="sponsors.html" class="dropdown-item">Sponsors</li></a>
+               <li><a href="collaborators.html" class="dropdown-item">Collaborators</a></li>
+           </ul>
+       </li>
+       <li class="nav-item">
+           <a class="menu-item" href="campus-ambassador.php">Campus Ambassador</a>
+       </li> -->
+       <li class="nav-item">
+           <a class="menu-item" href="contact.php">Contact</a>
+       </li>
+       <li class="nav-item">
+           <a class="menu-item" href="login.php">Login</a>
+       </li>
+       <li class="nav-item dropdown-btn">
+           <a class="menu-item dropdown-btn-item" href="registration.php">Registrations</a>
+       </li>
+       <li class="dark">
+           <img src="assets/img/sun.png" id="icon" .mx-2>
+       </li>
+</div>
+</nav><!DOCTYPE html>
 <html>
 
 <head>
@@ -6,7 +71,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title> KIIT eMUN </title>
-    <meta name='description' content="Official Website of KIITMUN 2020">
+    <meta name='description' content="Official Website of KIITMUN 2021">
 
 
     <!-- Latest compiled and minified CSS -->
@@ -103,16 +168,17 @@
         <img src="./assets/img/loader.gif">
     </section>
 
-    <section class="body-content">
-        <nav class="navbar navbar-expand-lg navbar-light">
+    <section class="body-content darkmode">
+    <nav class="navbar navbar-expand-lg navbar-light" >
 
-            <a class="navbar-brand" href="/">
-                <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
-                <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2" class="nav-logo">
+             <a class="navbar-brand" href="/">
+                <img style="height:47px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
+                <img style="height:70px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2"
+                    class="nav-logo">
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <!-- <span class="navbar-toggler-icon"></span> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="" role="button">
                     <i class="fa fa-bars toggle-icon" aria-hidden="true"></i>
                 </span>
@@ -122,14 +188,14 @@
             <div class="collapse navbar-collapse " id="navbar">
                 <ul style="margin-left: 10vw;" class="navbar-nav navbar-right">
                     <li class="nav-item">
-                        <a class="menu-item" href="/">Home </a>
+                        <a class="menu-item active" href="index.html">Home </a>
                     </li>
                     <li class="nav-item">
                         <a class="menu-item" href="about.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="menu-item" data-toggle="dropdown">eMun</a>
-                        <ul class="dropdown-menu">
+                        <!-- <a class="menu-item" data-toggle="dropdown">eMun</a> -->
+                        <!-- <ul class="dropdown-menu">
                             <li><a href="committees.html" class="dropdown-item">Committees</li></a>
                             <li><a href="agenda.html" class="dropdown-item">Agenda</li></a>
                             <li><a href="eb.html" class="dropdown-item">Executive Board</li></a>
@@ -137,12 +203,12 @@
                             <li><a href="newsletter.html" class="dropdown-item">Newsletter</a></li>
                             <li><a href="rules-and-regulations.html" class="dropdown-item">Rules and Regulations</a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li class="nav-item">
                         <a class="menu-item" href="gallery.php">Gallery</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="menu-item" data-toggle="dropdown">Partners</a>
                         <ul class="dropdown-menu">
                             <li><a href="sponsors.html" class="dropdown-item">Sponsors</li></a>
@@ -151,7 +217,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="menu-item" href="campus-ambassador.php">Campus Ambassador</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="menu-item" href="contact.php">Contact</a>
                     </li>
@@ -159,7 +225,10 @@
                         <a class="menu-item" href="login.php">Login</a>
                     </li>
                     <li class="nav-item dropdown-btn">
-                        <a class="menu-item dropdown-btn-item" href="#">Registrations</a>
+                        <a class="menu-item dropdown-btn-item" href="registration.php">Registrations</a>
+                    </li>
+                    <li class="dark">
+                        <img src="assets/img/sun.png" id="icon" .mx-2>
                     </li>
             </div>
         </nav>
@@ -182,18 +251,18 @@
             </div>
         </div>
 
-        <section id="contact-second">
+        <!-- <section id="contact-second">
             <div class="m-auto">
                 <h1>Registration <br><b>Closed</h1>
                 <hr>
             </div>
-        </section>
+        </section> -->
 
-        <!-- <section id="committees-second">
+        <section id="committees-second">
             <h1 align="center">
                 Coming <b>Soon</b>
             </h1>
-        </section> -->
+        </section>
 
 
         <div class="footer-copyright">
@@ -203,8 +272,8 @@
                 <li style="display:inline-block;padding:10px;list-style:none;"><a href="https://twitter.com/kiitmun" target="_blank"><img src="./assets/img/footer/tw.png" height="50" width="50"></a></li>
                 <li style="display:inline-block;padding:10px;list-style:none;"><a href="https://www.linkedin.com/in/kiitmun/" target="_blank"><img src="./assets/img/footer/li.png" height="55" width="55"></a></li>
             </ul>
-            <center>
-                Copyright 2020 &copy; KIIT International Model United Nations
+            <center id="cr">
+                Copyright 2021 &copy; KIIT International Model United Nations
                 <br><a href="copyright.html" target="_blank">PRIVACY POLICY</a>
             </center>
         </div>

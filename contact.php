@@ -5,15 +5,17 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title> KIIT eMUN </title>
-    <meta name='description' content="Official Website of KIITMUN 2020">
+    <meta name='description' content="Official Website of KIITMUN 2021">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="darkM.css">
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -77,14 +79,14 @@
         <img src="./assets/img/loader.gif">
     </section>
 
-    <section class="body-content">
+    <section class="body-content darkmode">
 
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-light">
                 
                 <a class="navbar-brand" href="/">
                     <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
-                    <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2" class="nav-logo">
+                    <img style="height:80px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2" class="nav-logo">
                 </a>
             
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,7 +105,7 @@
                       <a class="menu-item" href="about.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="menu-item" data-toggle="dropdown" >eMun</a>
+                        <!-- <a class="menu-item" data-toggle="dropdown" >eMun</a>
                         <ul class="dropdown-menu">
                             <li><a href="committees.html" class="dropdown-item">Committees</li></a>
                             <li><a href="agenda.html" class="dropdown-item">Agenda</li></a>
@@ -111,21 +113,21 @@
                             <li><a href="study-guide.html" class="dropdown-item">Study Guide</a></li>
                             <li><a href="newsletter.html" class="dropdown-item">Newsletter</a></li>
                             <li><a href="rules-and-regulations.html" class="dropdown-item">Rules and Regulations</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li class="nav-item">
                         <a class="menu-item" href="gallery.php">Gallery</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="menu-item" data-toggle="dropdown" >Partners</a>
                         <ul class="dropdown-menu">
                             <li><a href="sponsors.html" class="dropdown-item">Sponsors</li></a>
                             <li><a href="collaborators.html" class="dropdown-item">Collaborators</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
+                    </li> -->
+                    <!-- <li class="nav-item">
                         <a class="menu-item" href="campus-ambassador.php">Campus Ambassador</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="menu-item active" href="#">Contact</a>
                     </li>  
@@ -206,8 +208,7 @@
         </section>
         <br>
         <div align="center">
-            <p><i>For further queries, please feel free to contact <b>+91 7537015373, +91 7537053682,
-            +91 9439665270.</b></i></p>
+            <p><i>For further queries, please feel free to contact <b>+91 9163299764,+91 7873252777</b></i></p>
         </div>
 
         <?php

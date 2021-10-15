@@ -1,0 +1,16 @@
+.darkmode{
+    background-color:#121212;
+}
+.txt{
+    color:#fafafa;
+}
+#icon{
+    width: 1.9rem;
+    cursor: pointer;
+}
+.dark{
+ margin-left: 6.3rem;
+}
+#cr{
+    color: #bab86c !important;
+}

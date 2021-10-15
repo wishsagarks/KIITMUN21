@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="darkM.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -88,7 +89,7 @@
         <img src="./assets/img/loader.gif">
     </section>
 
-    <section class="body-content">
+    <section class="body-content darkmode"id="main">
         <nav class="navbar navbar-expand-lg navbar-light">
 
             <a class="navbar-brand" href="/">
@@ -146,6 +147,9 @@
                     <li class="nav-item dropdown-btn">
                         <a class="menu-item dropdown-btn-item" href="registration.php">Registrations</a>
                     </li>
+                    <li class="dark">
+                        <img src="assets/img/sun.png" id="icon">
+                    </li>
             </div>
         </nav>
 
@@ -183,7 +187,7 @@
             <br><br>
             <div class="container-fluid">
                 <div class="row">
-                    <div style="text-align: justify; " class="col-md-7">
+                    <div id="para1"style="text-align: justify; " class="col-md-7">
                         1. The registration fees is non refundable <br>
                         2. Allotments will be made keeping in consideration the availability and experience of the
                         delegate <br>
@@ -193,7 +197,7 @@
                     </div>
                     <div class="col-md-1"><br></div>
                     <div class="col-md-3">
-                        <table style="width: 100%">
+                        <table id="para2" style="width: 100%">
                             <tr>
                                 <th style="font-family: Poppins;">Awards</th>
                                 <th style="font-family: Poppins;">Points</th>
@@ -215,7 +219,7 @@
                 </div>
                 <br><br><br>
 
-                <div style="text-align: justify; ">
+                <div id="para3"style="text-align: justify; ">
                     Every delegation should have atleast 1 participant in either of the Advanced Committees (UNSC/UNPBC)
                     and
                     atleast 1 participant in the Flagship committee (Historical Crisis Committee).
@@ -241,13 +245,27 @@
                         href="https://www.linkedin.com/in/kiitmun/" target="_blank"><img
                             src="./assets/img/footer/li.png" height="55" width="55"></a></li>
             </ul>
-            <center>
+            <center id="copy">
+                
                 Copyright 2020 &copy; KIIT International Model United Nations
                 <br><a href="copyright.html" target="_blank">PRIVACY POLICY</a>
             </center>
         </div>
 
     </section>
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function () {
+          
+            document.getElementById("main").classList.toggle("darkmode");
+            if (document.getElementById("main").classList.contains("darkmode")) {
+                icon.src = "assets/img/sun.png";
+            }
+            else {
+                icon.src ="assets/img/moon.png";
+            }
+        }
+    </script>
 </body>
 
 </html>

@@ -14,8 +14,8 @@
                 href="https://www.linkedin.com/in/kiitmun/" target="_blank"><img
                     src="./assets/img/footer/li.png" height="55" width="55"></a></li>
     </ul>
-    <center>
-        Copyright 2020 &copy; KIIT International Model United Nations
+    <center id="cr">
+        Copyright 2021 &copy; KIIT International Model United Nations
         <br><a href="copyright.html" target="_blank">PRIVACY POLICY</a>
     </center>
 </div>
