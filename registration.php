@@ -198,20 +198,20 @@
             <div class="container">
                 <div class="row clearfix">
                     <div class="col-md-4 mx-auto text-center">
-                        <!-- <div class="arrow_box">INDIAN STUDENTS</div>
+                        <div class="arrow_box">INDIAN STUDENTS</div>
                         <div class="btn-book"><a onclick="nationalSingle()" class="btn healnow">Single Delegate Registration <br> Fee: Rs 500 </a></div>
-                        <div class="btn-book"><a onclick="nationalDouble()" class="btn healnow">Double Delegate Registration <br> Fee: Rs 1000 ( Rs 500 each ) </a></div> -->
+                        <div class="btn-book"><a onclick="nationalDouble()" class="btn healnow">Double Delegate Registration <br> Fee: Rs 1000 ( Rs 500 each ) </a></div>
                     </div>
 
                     <div class="col-md-4 mt-4 mx-auto text-center">
                         <img style=" width: 191px;margin-bottom: 46px;" src="/assets/img/logo/e-mun-logo-black.png">
                     </div>
 
-                    <div class="col-md-4 mx-auto text-center">
+                    <!-- <div class="col-md-4 mx-auto text-center">
                         <div class="arrow_box">INTERNATIONAL STUDENTS</div>
                         <div class="btn-book"><a onclick="foreignSingle()" class="btn healnow">Single Delegate Registration<br> Fee: USD 15 </a></div>
                         <div class="btn-book"><a onclick="foreignDouble()" class="btn healnow">Double Delegate Registration<br> Fee: USD 30 ( USD 15 each ) </a></div>
-                    </div>
+                    </div> -->
 
                 </div>
 
