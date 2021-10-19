@@ -210,8 +210,8 @@
 
                     <div class="col-md-4 mx-auto text-center">
                         <div class="arrow_box" style="color:#bab86c ;">INTERNATIONAL STUDENTS</div>
-                        <div class="btn-book"><a onclick="foreignSingle()" class="btn healnow">Single Delegate Registration<br> Fee: USD 15 </a></div>
-                        <div class="btn-book"><a onclick="foreignDouble()" class="btn healnow">Double Delegate Registration<br> Fee: USD 30 ( USD 15 each ) </a></div>
+                        <div class="btn-book"><a onclick="foreignSingle()" class="btn healnow">Single Delegate Registration<br> Fee: USD 12 </a></div>
+                        <div class="btn-book"><a onclick="foreignDouble()" class="btn healnow">Double Delegate Registration<br> Fee: USD 24 ( USD 12 each ) </a></div>
                     </div>
 
                 </div>
