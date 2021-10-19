@@ -229,25 +229,25 @@
 
 
         <section id="national-single" style="display:none;">
-            <div class="container">
+            <div class="container" style="background:#121212;">
                 <?php include "./forms/national_single_delegate.php"; ?>
             </div>
         </section>
 
         <section id="national-double" style="display:none;">
-            <div class="container">
+            <div class="container" style="background:#121212;">
                 <?php include "./forms/national_double_delegate.php"; ?>
             </div>
         </section>
 
         <section id="foreign-single" style="display:none;">
-            <div class="container">
+            <div class="container" style="background:#121212;">
                 <?php include "./forms/foreign_single_delegate.php"; ?>
             </div>
         </section>
 
         <section id="foreign-double" style="display:none;">
-            <div class="container">
+            <div class="container" style="background:#121212;">
                 <?php include "./forms/foreign_double_delegate.php"; ?>
             </div>
         </section>
