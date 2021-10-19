@@ -10,6 +10,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
 
 
 <head>
+<link rel="stylesheet" href="darkM.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -86,7 +87,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
         <img src="./assets/img/loader.gif">
     </section>
 
-    <section class="body-content">
+    <section class="body-content darkmode">
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-light">
                 
@@ -108,9 +109,9 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                     <a class="menu-item" href="/">Home </a>
                 </li>
                 <li class="nav-item">
-                    <a class="menu-item active" href="#">About</a>
+                    <a class="menu-item active" href="about.html">About</a>
                 </li>
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item dropdown">
                     <a class="menu-item" data-toggle="dropdown" >eMun</a>
                     <ul class="dropdown-menu">
                         <li><a href="committees.html" class="dropdown-item">Committees</li></a>
@@ -120,8 +121,8 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                         <li><a href="newsletter.html" class="dropdown-item">Newsletter</a></li>
                         <li><a href="rules-and-regulations.html" class="dropdown-item">Rules and Regulations</a></li>
                     </ul>
-                </li>
-                <li class="nav-item">
+                </li> -->
+                <!-- <li class="nav-item">
                     <a class="menu-item" href="gallery.php">Gallery</a>
                 </li>
                 <li class="nav-item dropdown">
@@ -130,7 +131,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                         <li><a href="sponsors.html" class="dropdown-item">Sponsors</li></a>
                         <li><a href="collaborators.html" class="dropdown-item">Collaborators</a></li>
                     </ul>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="menu-item" href="campus-ambassador.php">Campus Ambassador</a>
                 </li>
@@ -356,16 +357,16 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                 <div class="col-xs-12 col-sm-6">
                     <center><br><br><img style="border-radius:50%;height:205px;width:220px;" src="./assets/img/members/abhijeet.jpg">
                     </center>
-                    <h4>Abhijeet Sahoo</h4>
+                    <h4>Aniket Majumder</h4>
                     <h3>Secretary General</h3>
-                    <a href="tel:+917537015373"><span>+91 7537015373</span></a>
+                    <a href="tel:+919163299764"><span>+91 9163299764</span></a>
                     <hr>
                 </div>
                 <div class="col-xs-12 col-sm-6">
                     <center><br><br><img style="border-radius:50%;height:200px;width:200px;" src="./assets/img/members/Shoumya.jpg"></center>
-                    <h4>Shoumya Bhowmik</h4>
+                    <h4>Rishita Sarkar</h4>
                     <h3>Deputy Director General</h3>
-                    <a href="tel:+919831083109"><span>+91 9831083109</span></a>
+                    <a href="tel:+919874510903"><span>+91 9874510903</span></a>
                     <hr>
                 </div>
             </div>
