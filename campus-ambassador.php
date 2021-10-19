@@ -355,7 +355,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
             <div class="row">
                 <br>
                 <div class="col-xs-12 col-sm-6">
-                    <center><br><br><img style="border-radius:50%;height:205px;width:220px;" src="./assets/img/members/abhijeet.jpg">
+                    <center><br><br><img style="border-radius:50%;height:205px;width:220px;" src="./assets/img/members/aniket-01.png">
                     </center>
                     <h4>Aniket Majumder</h4>
                     <h3>Secretary General</h3>
@@ -363,7 +363,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                     <hr>
                 </div>
                 <div class="col-xs-12 col-sm-6">
-                    <center><br><br><img style="border-radius:50%;height:200px;width:200px;" src="./assets/img/members/Shoumya.jpg"></center>
+                    <center><br><br><img style="border-radius:50%;height:200px;width:200px;" src="./assets/img/members/rishita-01.png"></center>
                     <h4>Rishita Sarkar</h4>
                     <h3>Deputy Director General</h3>
                     <a href="tel:+919874510903"><span>+91 9874510903</span></a>
