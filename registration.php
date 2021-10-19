@@ -252,6 +252,7 @@
             </div>
         </section>
         </div>
+        <?php include "./partials/footer.php"; ?>
 
         <script>
             function nationalSingle() {
@@ -319,7 +320,7 @@
             }
         </script>
 
-<?php include "./partials/footer.php"; ?>
+
 
     </section>
     
