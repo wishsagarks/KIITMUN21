@@ -179,7 +179,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
         <br>
 
         <div style="text-align: center; font-size:large" class="container">
-        <blockquote><i >Opportunities are often disguised as hard work, so that ordinary people cannot perceive them. At KIIT Model United Nations, we bring you the opportunity to become one of the extraordinaire.</i><br>
+        <blockquote style="color: wheat;"><i >Opportunities are often disguised as hard work, so that ordinary people cannot perceive them. At KIIT Model United Nations, we bring you the opportunity to become one of the extraordinaire.</i><br>
             <center><br><b>Join us and march towards glory.</b></center>
         </blockquote>
         </div>
@@ -319,7 +319,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                         <div>
                             <table class="table table-striped table-hover">
                                 <thead>
-                                    <tr>
+                                    <tr style="color: white;">
                                         <th>Name</th>
                                         <th>College</th>
                                         <th>Points</th>
