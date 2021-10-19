@@ -4,6 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="darkM.css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title> KIIT eMUN </title>
     <meta name='description' content="Official Website of KIITMUN 2021">
