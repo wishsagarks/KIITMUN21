@@ -14,13 +14,6 @@ function getCountries(committeId) {
 
   var countryList = new Array(country1Element, country2Element, country3Element, country4Element, country5Element);
 
-  var country1 = country1Element.value;
-  var country2 = country2Element.value;
-  var country3 = country3Element.value;
-  var country4 = country4Element.value;
-  var country5 = country5Element.value;
-  var xhttp = new XMLHttpRequest();
-
   var matrix = {
 
   'United Nations General Assembly- Disarmament and International Security Committee (DISEC)':['Afghanistan','Albania','Algeria','Andorra','Angola','Antigua and Barbuda','Argentina','Armenia','Australia','Austria','Azerbaijan','Bahamas','Bahrain','Bangladesh','Barbados','Belarus','Belgium','Benin','Bhutan','Bolivia (Plurinational State of)','Bosnia and Herzegovina','Botswana','Brazil','Bulgaria','Burkina Faso','Burundi','Cambodia','Cameroon','Canada','Central African Republic','Chad','Chile','China','Colombia','Comoros','Congo','Costa Rica','Côte DI voire','Croatia','Cuba','Cyprus','Czech Republic','Democratic People Republic of Korea','Democratic Republic of the Congo','Denmark','Djibouti','Dominica','Dominican Republic','Ecuador','Egypt','El Salvador','Equatorial Guinea','Eritrea','Estonia','Eswatini','Ethiopia','Fiji','Finland','France','Gambia (Republic of The)','Georgia','Germany','Ghana','Greece','Grenada','Guatemala','Guinea','Guinea Bissau','Guyana','Haiti','Honduras','Hungary','Iceland','India','Indonesia','Iran (Islamic Republic of)','Iraq','Ireland','Israel','Italy','Jamaica','Japan','Jordan','Kazakhstan','KENYA','Kiribati','Kuwait','Kyrgyzstan','Lao People’s Democratic Republic','Latvia','Lebanon','Liberia','Libya','Lithuania','Luxembourg','Madagascar','Malawi','Malaysia','Maldives','Mali','Malta','Marshall Islands','Mauritania','Mauritius','Mexico','Micronesia (Federated States of)','Monaco','Mongolia','Morocco','Mozambique','Myanmar','Namibia','Nepal','Netherlands','New Zealand','Nicaragua','Niger','Nigeria','North Macedonia','Norway','Oman','Pakistan','Palau','Panama','Papua New Guinea','Paraguay','Peru','Philippines','Poland','Portugal','Qatar','Republic of Korea','Republic of Moldova','Romania','Russian Federation','Rwanda','Saint Lucia','Saint Vincent and the Grenadines','Samoa','Saudi Arabia','Senegal','Serbia','Seychelles','Sierra Leone','Singapore','Slovakia','Slovenia','Solomon Islands','Somalia','South Africa','South Sudan','Spain','Sri Lanka','Sudan','Suriname','Sweden','Switzerland','Syrian Arab Republic','Tajikistan','Thailand','Togo','Tonga','Trinidad and Tobago','Tunisia','Turkey','Turkmenistan','Tuvalu','Uganda','Ukraine','United Arab Emirates','United Kingdom of Great Britain and Northern Ireland','United Republic of Tanzania','United States of America','Uruguay','Uzbekistan','Vanuatu','"Venezuela, Bolivarian Republic of"','Viet Nam','Yemen','Zambia','Zimbabwe'],
@@ -36,7 +29,7 @@ function getCountries(committeId) {
   }
 
 
-  for (var i = 0; i < 5; i++) {
+  for (var i = 0; i < 3; i++) {
     var temp = countryList[i].firstElementChild;
     temp.selected = true;
     countryList[i].innerHTML = "";
