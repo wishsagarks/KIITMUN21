@@ -45,16 +45,12 @@
             $country11 = mysqli_real_escape_string($conn, $_POST['national-single-country11']);
             $country12 = mysqli_real_escape_string($conn, $_POST['national-single-country12']);
             $country13 = mysqli_real_escape_string($conn, $_POST['national-single-country13']);
-            $country14 = mysqli_real_escape_string($conn, $_POST['national-single-country14']);
-            $country15 = mysqli_real_escape_string($conn, $_POST['national-single-country15']);
 
             // Commitee 2
             $committee2 = mysqli_real_escape_string($conn, $_POST['national-single-committee2']);
             $country21 = mysqli_real_escape_string($conn, $_POST['national-single-country21']);
             $country22 = mysqli_real_escape_string($conn, $_POST['national-single-country22']);
             $country23 = mysqli_real_escape_string($conn, $_POST['national-single-country23']);
-            $country24 = mysqli_real_escape_string($conn, $_POST['national-single-country24']);
-            $country25 = mysqli_real_escape_string($conn, $_POST['national-single-country25']);
 
 
             // Commitee 3
@@ -62,8 +58,7 @@
             $country31 = mysqli_real_escape_string($conn, $_POST['national-single-country31']);
             $country32 = mysqli_real_escape_string($conn, $_POST['national-single-country32']);
             $country33 = mysqli_real_escape_string($conn, $_POST['national-single-country33']);
-            $country34 = mysqli_real_escape_string($conn, $_POST['national-single-country34']);
-            $country35 = mysqli_real_escape_string($conn, $_POST['national-single-country35']);
+
 
             $ref_id = mysqli_real_escape_string($conn, $_POST['national-single-ref-id']);
             $password = hash("sha256",mysqli_real_escape_string($conn, $_POST['national-single-password']));
@@ -85,17 +80,17 @@
                 $query = " insert into registration_single_delegation (
                     name, gender, email, contact1, contact2, age, course, college, nationality, previous_experience,
                     previous_experience_details, awards, awards_details, 
-                    committee1, country11, country12, country13, country14, country15,  
-                    committee2, country21, country22, country23, country24, country25,
-                    committee3, country31, country32, country33, country34, country35,
+                    committee1, country11, country12, country13,  
+                    committee2, country21, country22, country23,
+                    committee3, country31, country32, country33,
                     reference_id, password, round )                                   
                     
                     
                     values (
                     '$name', '$gender', '$email', '$contact1', '$contact2', '$age', '$course', '$college', '$nationality','$previous_experience', '$previous_experience_details', '$awards', '$awards_details', 
-                    '$committee1', '$country11', '$country12', '$country13', '$country14', '$country15',  
-                    '$committee2', '$country21', '$country22', '$country23', '$country24', '$country25',
-                    '$committee3', '$country31', '$country32', '$country33', '$country34', '$country35',
+                    '$committee1', '$country11', '$country12', '$country13',
+                    '$committee2', '$country21', '$country22', '$country23',
+                    '$committee3', '$country31', '$country32', '$country33',
                      '$ref_id', '$password', '$round' )";
 
 
