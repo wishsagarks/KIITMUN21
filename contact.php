@@ -86,7 +86,7 @@
                 
                 <a class="navbar-brand" href="/">
                     <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
-                    <img style="height:80px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2" class="nav-logo">
+                    <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2" class="nav-logo">
                 </a>
             
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -125,9 +125,9 @@
                             <li><a href="collaborators.html" class="dropdown-item">Collaborators</a></li>
                         </ul>
                     </li> -->
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="menu-item" href="campus-ambassador.php">Campus Ambassador</a>
-                    </li> -->
+                    </li>
                     <li class="nav-item">
                         <a class="menu-item active" href="#">Contact</a>
                     </li>  
@@ -182,51 +182,15 @@
             <div class="m-auto">
                 <h1>Connect With <b>Us</b></h1>
                 <hr>
-                <!-- Redirect on the same page -->
-        <form method="POST" action="<?php echo mysqli_real_escape_string($conn,$_SERVER["PHP_SELF"]); ?>">
-                    <div class="form-group">
-                        <label for="name">Your Name:</label>
-                        <input type="text" name="name" class="form-control" id="form-name" required>
-                        <br>
-                        <div class="col-xs-6" style="padding: 0; padding-right: 1vmin;">
-                            <label for="email">Your Email:</label>
-                            <input type="email" name="email" class="form-control" id="form-email" required>
-                        </div>
-                        <br>
-                        <div class="col-xs-6" style="padding: 0; padding-left: 1vmin;">
-                            <label for="subject">Subject:</label>
-                            <input type="text" name="subject" class="form-control" id="form-subject" required>
-                        </div>
-                        <br>
-                        <label for="message">Your Message</label>
-                        <textarea rows="5" name="message" class="form-control" id="form-message" required></textarea>
-                        <br>
-                        <button class="btn btn-lg btn-block" type="submit" name="submit">Submit</button>
-                    </div>
-                </form>
-            </div>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_7VJHyJbDEUFGRviAm6qkC-nRKje3mnJi1RED_P83FZlKmw/viewform?embedded=true" width="100%" height="812" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+               
         </section>
         <br>
+       
         <div align="center">
             <p><i>For further queries, please feel free to contact <b>+91 9163299764,+91 7873252777</b></i></p>
         </div>
-
-        <?php
-        if (isset($_POST['submit'])) {
-            $name = mysqli_real_escape_string($conn, $_POST['name']);
-            $email = mysqli_real_escape_string($conn, $_POST['email']);
-            $subject = mysqli_real_escape_string($conn, $_POST['subject']);
-            $message = mysqli_real_escape_string($conn, $_POST['message']);
-
-            $query = " insert into contacts (name , email , subject, message ) values ('$name' , '$email' , '$subject' , '$message' )" ;
-
-            mysqli_query($conn , $query);
-
-            echo '<script language="javascript">';
-            echo 'alert("Your query is saved successfully. We wil reach back to you soon.")';
-            echo '</script>';
-        }
-        ?>
+       
 
         <section id="contact-third">
             <h1>In Other <b>Media</b></h1>
