@@ -3,16 +3,14 @@ function getCountries(committeId) {
   var country1Id = committeId + "_country_1";
   var country2Id = committeId + "_country_2";
   var country3Id = committeId + "_country_3";
-  var country4Id = committeId + "_country_4";
-  var country5Id = committeId + "_country_5";
+
 
   var country1Element = document.getElementById(country1Id);
   var country2Element = document.getElementById(country2Id);
   var country3Element = document.getElementById(country3Id);
-  var country4Element = document.getElementById(country4Id);
-  var country5Element = document.getElementById(country5Id);
+ 
 
-  var countryList = new Array(country1Element, country2Element, country3Element, country4Element, country5Element);
+  var countryList = new Array(country1Element, country2Element, country3Element);
 
   var matrix = {
 

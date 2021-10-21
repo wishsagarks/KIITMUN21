@@ -190,42 +190,9 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                     <div class="col-sm-6 col-md-offset-1  col-md-6 col-md-offset-1  col-lg-6 col-lg-offset-1">
                         <h1>Campus <br><b>Ambassador</b></h1>
                         <hr>
-                        <form method="POST" action="<?php echo mysqli_real_escape_string($conn, $_SERVER["PHP_SELF"]); ?>">
+                        
 
-                            <label for="form-name">Your Name:</label>
-                            <input type="text" name="name" class="form-control" id="form-name" required>
-                            <br>
-                            <div class="col-xs-6" style="padding: 0;padding-right: 1vmin;">
-                                <label for="form-email">Your Email:</label>
-                                <input type="email" name="email" class="form-control" id="form-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
-                            </div>
-                            <br>
-                            <div class="col-xs-6" style="padding: 0;">
-                                <label for="form-subject">Phone No.:</label>
-                                <input type="number" name="phone" class="form-control" id="form-subject" pattern="[0-9]{10}" required>
-                            </div>
-                            <br>
-                            <div class="col-xs-6" style="padding: 0;padding-right: 1vmin;">
-                                <label for="form-college">College/School:</label>
-                                <input type="text" name="college" class="form-control" id="form-college" required>
-                            </div>
-                            <br>
-                            <div class="col-xs-6" style="padding: 0; ">
-                                <label for="form-stream">Stream/Standard:</label>
-                                <input type="text" name="stream" class="form-control" id="form-stream" required>
-                            </div>
-                            <br>
-                            <label for="form-experience">Past experience of working in an Organizing Committee:</label>
-                            <textarea rows="3" name="experience" class="form-control" id="form-experience" required></textarea>
-                            <br>
-                            <label for="form-knowledge">Why do you want to be a Campus Ambassador?</label>
-                            <textarea rows="5" name="knowledge" class="form-control" id="form-knowledge" required></textarea>
-                            <br>
-                            <button class="btn" type="submit" name="submit">Submit</button>
-                            <br><br>
-                        </form>
-
-                        <?php
+                        <!-- <?php
                         if (isset($_POST['submit'])) {
 
 
@@ -256,7 +223,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                                 echo '</script>';
                             }
                         }
-                        ?>
+                        ?> -->
 
 
                         <br>
