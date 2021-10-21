@@ -122,10 +122,10 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                         <li><a href="rules-and-regulations.html" class="dropdown-item">Rules and Regulations</a></li>
                     </ul>
                 </li> -->
-                <!-- <li class="nav-item">
+                <li class="nav-item">
                     <a class="menu-item" href="gallery.php">Gallery</a>
                 </li>
-                <li class="nav-item dropdown">
+                <!--<li class="nav-item dropdown">
                     <a class="menu-item" data-toggle="dropdown" >Partners</a>
                     <ul class="dropdown-menu">
                         <li><a href="sponsors.html" class="dropdown-item">Sponsors</li></a>
