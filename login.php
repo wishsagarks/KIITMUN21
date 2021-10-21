@@ -133,10 +133,10 @@
 						<li><a href="sponsors.html" class="dropdown-item">Sponsors</li></a>
 						<li><a href="collaborators.html" class="dropdown-item">Collaborators</a></li>
 					</ul>
-				</li>
+				</li>-->
 				<li class="nav-item">
 					<a class="menu-item" href="campus-ambassador.php">Campus Ambassador</a>
-				</li> -->
+				</li> 
 				<li class="nav-item">
 					<a class="menu-item" href="contact.php">Contact</a>
 				</li>
