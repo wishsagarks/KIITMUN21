@@ -196,10 +196,10 @@
         <br><br>
         <section id="option-section" style="display:block;" class="contact-page-section mb-4">
             <!-- <br><br><br> -->
-            <div class="container">
+            <div class="container" style="color: #bab86c;">
                 <div class="row clearfix">
                     <div class="col-md-4 mx-auto text-center">
-                        <div class="arrow_box" style="color: #bab86c;">INDIAN STUDENTS</div>
+                        <div class="arrow_box" >INDIAN STUDENTS</div>
                         <div class="btn-book"><a onclick="nationalSingle()" class="btn healnow">Single Delegate Registration <br> Fee: Rs 500 </a></div>
                         <div class="btn-book"><a onclick="nationalDouble()" class="btn healnow">Double Delegate Registration <br> Fee: Rs 1000 ( Rs 500 each ) </a></div>
                     </div>
