@@ -195,9 +195,9 @@
         </section> -->
 
         <br><br>
-        <section id="option-section" style="display:block;" class="contact-page-section mb-4" style="background-color: #121212;">
+        <section id="option-section" style="display:block;" class="contact-page-section mb-4">
             <!-- <br><br><br> -->
-            <div class="container" style="color: #bab86c;background-color:#121212">
+            <div class="container" style="color: #bab86c !important;">
                 <div class="row clearfix">
                     <div class="col-md-4 mx-auto text-center">
                         <div class="arrow_box" >INDIAN STUDENTS</div>
@@ -230,7 +230,7 @@
 
 
         <section id="national-single" style="display:none;" >
-            <div class="container" >
+            <div class="container" style="background:#121212;" >
                 <?php include "./forms/national_single_delegate.php"; ?>
             </div>
         </section>
