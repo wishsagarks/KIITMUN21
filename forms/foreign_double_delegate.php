@@ -157,7 +157,7 @@
 
 ?>
 
-<section id="contact-second">
+<section id="contact-second" style="background-color: #121212;">
     <div class="mx-auto">
         <h1>Foreign <br><b>Double Delegates</b></h1>
         <hr>
