@@ -51,12 +51,16 @@
             $country11 = mysqli_real_escape_string($conn, $_POST['foreign-single-country11']);
             $country12 = mysqli_real_escape_string($conn, $_POST['foreign-single-country12']);
             $country13 = mysqli_real_escape_string($conn, $_POST['foreign-single-country13']);
+            $country14 = mysqli_real_escape_string($conn, $_POST['foreign-single-country14']);
+            $country15 = mysqli_real_escape_string($conn, $_POST['foreign-single-country15']);
 
             // Commitee 2
             $committee2 = mysqli_real_escape_string($conn, $_POST['foreign-single-committee2']);
             $country21 = mysqli_real_escape_string($conn, $_POST['foreign-single-country21']);
             $country22 = mysqli_real_escape_string($conn, $_POST['foreign-single-country22']);
             $country23 = mysqli_real_escape_string($conn, $_POST['foreign-single-country23']);
+            $country24 = mysqli_real_escape_string($conn, $_POST['foreign-single-country24']);
+            $country25 = mysqli_real_escape_string($conn, $_POST['foreign-single-country25']);
 
 
             // Commitee 3
@@ -64,65 +68,112 @@
             $country31 = mysqli_real_escape_string($conn, $_POST['foreign-single-country31']);
             $country32 = mysqli_real_escape_string($conn, $_POST['foreign-single-country32']);
             $country33 = mysqli_real_escape_string($conn, $_POST['foreign-single-country33']);
+            $country34 = mysqli_real_escape_string($conn, $_POST['foreign-single-country34']);
+            $country35 = mysqli_real_escape_string($conn, $_POST['foreign-single-country35']);
 
             $ref_id = mysqli_real_escape_string($conn, $_POST['foreign-single-ref-id']);
             $password = hash("sha256",mysqli_real_escape_string($conn, $_POST['foreign-single-password']));
 
+            
+
             $round = 1;
 
+            // print_r($_FILES['identity-proof']);
 
-            $sql = " select * from registration_single_delegation where email='" . $email . "'";
-            $res = mysqli_query($conn, $sql);
+            // date_default_timezone_set('Asia/Kolkata');
+            // $filename = $_FILES["identity-proof"]["name"];
+            // $pname = date('d-m-Y H:i').'-'. $filename;
+            // $tempname = $_FILES["identity-proof"]["tmp_name"];
+            // $filetype = $_FILES["identity-proof"]["type"];
+            // $filesize = $_FILES["identity-proof"]["size"];
+
+            // $fileExt = explode('.', $filename);
+            // $ext = strtolower(pathinfo($filename,PATHINFO_EXTENSION));
+
+            // // echo '<script language="javascript">';
+            // // echo 'alert('.$filename. $filesize. $filetype. $tempname . $pname .$fileExt.')';
+            // // echo '</script>';
+            // print_r($filename. $filesize. $filetype. $tempname . $pname .$fileExt.$ext);
+            // $allowedext = array('jpg', 'jpeg', 'png', 'pdf');
+
+            // echo '<script language="javascript">';
+            // echo 'alert('.$ext.')';
+            // echo '</script>';
+
+            // if(!in_array($filetype, $allowedext)) {
+            //     echo '<script language="javascript">';
+            //     echo 'alert("File type is not supported. Supported formats are: jpg, jpeg,png and pdf")';
+            //     echo '</script>';
+            // }
+            // else if($filesize > 20000) {
+            //     echo '<script language="javascript">';
+            //     echo 'alert("File size must be less than 2MB")';
+            //     echo '</script>';
+            // }
+            // else {
+                $sql = " select * from registration_single_delegation where email='" . $email . "'";
+                $res = mysqli_query($conn, $sql);
+
+                // echo '<script language="javascript">';
+                // echo 'alert("97")';
+                // echo '</script>';
 
 
-            if (mysqli_num_rows($res) > 0) {
-                echo '<script language="javascript">';
-                echo 'alert("User with this email already exist")';
-                echo '</script>';
-            } 
-            else {                                
-                $query = " insert into registration_single_delegation (
-                    name, gender, email, contact1, contact2, age, course, college, nationality, previous_experience,
-                    previous_experience_details, awards, awards_details, 
-                    committee1, country11, country12, country13,  
-                    committee2, country21, country22, country23,
-                    committee3, country31, country32, country33,
-                    reference_id, password, round)                                   
-
-
-                    values (
-                    '$name', '$gender', '$email', '$contact1', '$contact2', '$age', '$course', '$college', '$nationality','$previous_experience', '$previous_experience_details', '$awards', '$awards_details', 
-                    '$committee1', '$country11', '$country12', '$country13',
-                    '$committee2', '$country21', '$country22', '$country23',
-                    '$committee3', '$country31', '$country32', '$country33',
-                    '$ref_id', '$password', '$round' )";
-
-
-                if (mysqli_query($conn, $query)) {
-
-                            $select_ca = "SELECT points FROM campus_ambassador WHERE reference_id = '".$ref_id."'";
-                            $ca = mysqli_query($conn,$select_ca);   
-
-                            if(mysqli_num_rows($ca) > 0) {
-                            $row_ca = mysqli_fetch_assoc($ca);
-                            $actual_point = $row_ca['points'];
-                            $update_point = $actual_point+10;
-                            $update_ca = "UPDATE campus_ambassador SET points='".$update_point."' WHERE reference_id='".$ref_id."'";
-                            mysqli_query($conn,$update_ca);
-                    }
-
-
+                if (mysqli_num_rows($res) > 0) {
                     echo '<script language="javascript">';
-                    echo 'alert("Successfully Registered")';
+                    echo 'alert("User with this email already exist")';
                     echo '</script>';
+                } else {
+                    
 
-                    } 
-                else {
-                    echo "Error: " . $query . "<br>" . mysqli_error($conn);
+                    // $uploads_dir = '/uploads/single-delegation';
+                    // move_uploaded_file($tempname, $uploads_dir.'/'.$filename);
+                    // $uploaded_dir = "http://kiitmun.org/demo".$uploads_dir."/".$filename;
+
+                    $query = " insert into registration_single_delegation (
+                        name, gender, email, contact1, contact2, age, course, college, nationality, previous_experience,
+                        previous_experience_details, awards, awards_details, 
+                        committee1, country11, country12, country13, country14, country15,  
+                        committee2, country21, country22, country23, country24, country25,
+                        committee3, country31, country32, country33, country34, country35,
+                        reference_id, password, round)                                   
+                        
+                        
+                        values (
+                        '$name', '$gender', '$email', '$contact1', '$contact2', '$age', '$course', '$college', '$nationality','$previous_experience', '$previous_experience_details', '$awards', '$awards_details', 
+                        '$committee1', '$country11', '$country12', '$country13', '$country14', '$country15',  
+                        '$committee2', '$country21', '$country22', '$country23', '$country24', '$country25',
+                        '$committee3', '$country31', '$country32', '$country33', '$country34', '$country35',
+                        '$ref_id', '$password', '$round' )";
+
+
+                    if (mysqli_query($conn, $query)) {
+
+                        $select_ca = "SELECT points FROM campus_ambassador WHERE reference_id = '".$ref_id."'";
+                        $ca = mysqli_query($conn,$select_ca);   
+    
+                        if(mysqli_num_rows($ca) > 0) {
+                        $row_ca = mysqli_fetch_assoc($ca);
+                        $actual_point = $row_ca['points'];
+                        $update_point = $actual_point+10;
+                        $update_ca = "UPDATE campus_ambassador SET points='".$update_point."' WHERE reference_id='".$ref_id."'";
+                        mysqli_query($conn,$update_ca);
+                        }
+
+                        
+                        echo '<script language="javascript">';
+                        echo 'alert("Successfully Registered")';
+                        echo '</script>';
+                        
+                        } 
+                    else {
+                        echo "Error: " . $query . "<br>" . mysqli_error($conn);
+                    }
+                    // mysqli_query($conn, $query);
                 }
-            }
-        }   
-    }
+            }   
+        }
+    // }
 ?>
 
 <section id="contact-second">
@@ -248,6 +299,29 @@
                     </div>
                 </div>
             </div>
+            <div class="form-row">
+                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
+                </div>
+
+                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
+                    <div class="form-group">
+                        <select name="foreign-single-country14" class="form-control" id="foreign-single-first_committee_country_4" >
+                            <option value="" selected disabled>Country Choice 4</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
+                    <div class="form-group">
+                        <select name="foreign-single-country15" class="form-control" id="foreign-single-first_committee_country_5" >
+                            <option value="" selected disabled>Country Choice 5</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
+                </div>
+            </div>
             <br>
 
             <div class="form-group">
@@ -286,7 +360,29 @@
                     </div>
                 </div>
             </div>
-           
+            <div class="form-row">
+                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
+                </div>
+
+                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
+                    <div class="form-group">
+                        <select name="foreign-single-country24" class="form-control" id="foreign-single-second_committee_country_4" >
+                            <option value="" selected disabled>Country Choice 4</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
+                    <div class="form-group">
+                        <select name="foreign-single-country25" class="form-control" id="foreign-single-second_committee_country_5" >
+                            <option value="" selected disabled>Country Choice 5</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
+                </div>
+            </div>
             <br>
 
             <div class="form-group">
@@ -325,7 +421,29 @@
                     </div>
                 </div>
             </div>
-            
+            <div class="form-row">
+                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
+                </div>
+
+                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
+                    <div class="form-group">
+                        <select name="foreign-single-country34" class="form-control" id="foreign-single-third_committee_country_4" >
+                            <option value="" selected disabled>Country Choice 4</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
+                    <div class="form-group">
+                        <select name="foreign-single-country35" class="form-control" id="foreign-single-third_committee_country_5" >
+                            <option value="" selected disabled>Country Choice 5</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
+                </div>
+            </div>
             <br>
             <div class="col-xs-6" style="padding: 0; padding-right: 1vmin;">
                 <label for="ref-id">Reference ID</label>
