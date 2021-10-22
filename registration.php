@@ -251,6 +251,7 @@
                 <?php include "./forms/foreign_double_delegate.php"; ?>
             </div>
         </section>
+
         </div>
         <?php include "./partials/footer.php"; ?>
 
