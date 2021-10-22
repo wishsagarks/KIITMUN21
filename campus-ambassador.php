@@ -331,7 +331,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                 </div>
                 <div class="col-xs-12 col-sm-6">
                     <center><br><br><img style="border-radius:50%;height:200px;width:200px;" src="./assets/img/members/aditya-01.png"></center>
-                    <h4>Aditya Sinha</h4>
+                    <h4>Aditya Kumar Sinha</h4>
                         <h3>Chargé D'affaires</h3>
                         <a href="tel:+919304704657"><span>+91 9304704657</span></a>
                     <hr>
