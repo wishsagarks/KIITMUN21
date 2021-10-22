@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="./assets/css/index2019.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
 
-    
+
     <!-- Custom JS -->
     <!-- <script src="./assets/js/index.js"></script> -->
     <script src="./assets/js/committee.js"></script>
@@ -229,8 +229,8 @@
         </section>
 
 
-        <section id="national-single" style="display:none;">
-            <div class="container" style="background:#121212;">
+        <section id="national-single" style="display:none;background:#121212;" >
+            <div class="container" >
                 <?php include "./forms/national_single_delegate.php"; ?>
             </div>
         </section>
