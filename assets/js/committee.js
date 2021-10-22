@@ -14,12 +14,7 @@ function getCountries(committeId) {
 
   var countryList = new Array(country1Element, country2Element, country3Element, country4Element, country5Element);
 
-  var country1 = country1Element.value;
-  var country2 = country2Element.value;
-  var country3 = country3Element.value;
-  var country4 = country4Element.value;
-  var country5 = country5Element.value;
-  var xhttp = new XMLHttpRequest();
+  
 
   var matrix = {
 
@@ -36,7 +31,7 @@ function getCountries(committeId) {
   }
 
 
-  for (var i = 0; i < 5; i++) {
+  for (var i = 0; i < 3; i++) {
     var temp = countryList[i].firstElementChild;
     temp.selected = true;
     countryList[i].innerHTML = "";
