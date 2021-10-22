@@ -241,29 +241,7 @@
                     </div>
                 </div>
             </div>
-            <div class="form-row">
-                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                </div>
-
-                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                    <div class="form-group">
-                        <select name="national-single-country14" class="form-control" id="national-single-first_committee_country_4" >
-                            <option value="" selected disabled>Country Choice 4</option>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                    <div class="form-group">
-                        <select name="national-single-country15" class="form-control" id="national-single-first_committee_country_5" >
-                            <option value="" selected disabled>Country Choice 5</option>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                </div>
-            </div>
+           
 
             <br>
 
@@ -302,29 +280,7 @@
                     </div>
                 </div>
             </div>
-            <div class="form-row">
-                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                </div>
-
-                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                    <div class="form-group">
-                        <select name="national-single-country24" class="form-control" id="national-single-second_committee_country_4" >
-                            <option value="" selected disabled>Country Choice 4</option>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                    <div class="form-group">
-                        <select name="national-single-country25" class="form-control" id="national-single-second_committee_country_5" >
-                            <option value="" selected disabled>Country Choice 5</option>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                </div>
-            </div>
+          
             <br>
 
             <div class="form-group">
@@ -362,29 +318,7 @@
                     </div>
                 </div>
             </div>
-            <div class="form-row">
-                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                </div>
-
-                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                    <div class="form-group">
-                        <select name="national-single-country34" class="form-control" id="national-single-third_committee_country_4" >
-                            <option value="" selected disabled>Country Choice 4</option>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                    <div class="form-group">
-                        <select name="national-single-country35" class="form-control" id="national-single-third_committee_country_5" >
-                            <option value="" selected disabled>Country Choice 5</option>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                </div>
-            </div>
+            
             <br>
             <div class="col-xs-6" style="padding: 0; padding-right: 1vmin;">
                 <label for="ref-id">Reference ID</label>

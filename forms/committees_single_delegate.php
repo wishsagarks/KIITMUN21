@@ -1,10 +1,11 @@
-<option>WISH</option>
-<option>United Nations Framework convention on climate change (UNFCCC)</option>
-<option>United Nations Entity for Gender Equality and the Empowerment of Women (UN WOMEN)</option>
-<option>United Nations General Assembly- Special political and decolonization committee (SPECPOL)</option>
-<option>United Nations Security Council (UNSC)</option>
-<option>United Nations Peacebuilding Commission (UNPBC)</option>
-<option>Historical Crisis Committee (HCC)</option>
-<option>World health assembly (WHA)</option>
+<option>United Nations General Assembly- Disarmament and International Security Committee (DISEC)</option>
+<option>World Health Assembly (WHA)</option>
 <option>United nations Human Rights Council (UNHRC)</option>
-<option>United nations Economic and social council (ECOSOC)</option>
+<option>Intergovernmental Panel on Climate Change (IPCC)</option>
+<option>United Nations Commission on the Status of Women (UNCSW)</option>
+<option>United Nations Childrens Fund (UNICEF)</option>
+<option>United Nations Office on Drugs and Crime (UNODC)</option>
+<option>World Bank</option>
+<option>United Nations Security Council (UNSC)</option>
+<option>Joint Crisis Committee (JCC)</option>
+<option>International Press (IP)</option>
