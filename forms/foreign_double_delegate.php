@@ -76,16 +76,12 @@
             $country11 = mysqli_real_escape_string($conn, $_POST['foreign-double-country11']);
             $country12 = mysqli_real_escape_string($conn, $_POST['foreign-double-country12']);
             $country13 = mysqli_real_escape_string($conn, $_POST['foreign-double-country13']);
-            $country14 = mysqli_real_escape_string($conn, $_POST['foreign-double-country14']);
-            $country15 = mysqli_real_escape_string($conn, $_POST['foreign-double-country15']);
 
             // Commitee 2
             $committee2 = mysqli_real_escape_string($conn, $_POST['foreign-double-committee2']);
             $country21 = mysqli_real_escape_string($conn, $_POST['foreign-double-country21']);
             $country22 = mysqli_real_escape_string($conn, $_POST['foreign-double-country22']);
             $country23 = mysqli_real_escape_string($conn, $_POST['foreign-double-country23']);
-            $country24 = mysqli_real_escape_string($conn, $_POST['foreign-double-country24']);
-            $country25 = mysqli_real_escape_string($conn, $_POST['foreign-double-country25']);
 
 
             // Commitee 3
@@ -93,112 +89,72 @@
             $country31 = mysqli_real_escape_string($conn, $_POST['foreign-double-country31']);
             $country32 = mysqli_real_escape_string($conn, $_POST['foreign-double-country32']);
             $country33 = mysqli_real_escape_string($conn, $_POST['foreign-double-country33']);
-            $country34 = mysqli_real_escape_string($conn, $_POST['foreign-double-country34']);
-            $country35 = mysqli_real_escape_string($conn, $_POST['foreign-double-country35']);
+            
 
             $ref_id = mysqli_real_escape_string($conn, $_POST['foreign-double-ref-id']);
             $password = hash("sha256",mysqli_real_escape_string($conn, $_POST['foreign-double-password']));
 
             
-
             $round = 1;
 
-            // date_default_timezone_set('Asia/Kolkata');
-            // $filename1 = $_FILES["identity-proof1"]["name"];
-            // $pname1 = date('d-m-Y H:i').'-'.$_FILES["identity-proof1"]["name"].'-1';
-            // $tempname1 = $_FILES["identity-proof1"]["tmp_name"];
-            // $filetype1 = $_FILES["identity-proof1"]["type"];
-            // $filesize1 = $_FILES["identity-proof1"]["size"];
-            // $fileExt1 = explode('.', $filename1);
-            // $ext1 = strtolower(end($fileExt1));
-
-            // $filename2 = $_FILES["identity-proof2"]["name"];
-            // $pname2 = date('d-m-Y H:i').'-'.$_FILES["identity-proof2"]["name"].'-2';
-            // $tempname2 = $_FILES["identity-proof2"]["tmp_name"];
-            // $filetype2 = $_FILES["identity-proof2"]["type"];
-            // $filesize2 = $_FILES["identity-proof2"]["size"];
-            // $fileExt2 = explode('.', $filename2);
-            // $ext2 = strtolower(end($fileExt2));
-
-            // $allowedext = array('jpg', 'jpeg', 'png', 'pdf');
-
-            // if(!in_array($ext1, $allowedext) || !in_array($ext2,$allowedext)) {
-            //     echo '<script language="javascript">';
-            //     echo 'alert("File type is not supported. Supported formats are: jpg, jpeg,png and pdf")';
-            //     echo '</script>';
-            // }
-            // else if($filesize1 > 20000 || $filesize2 > 20000) {
-            //     echo '<script language="javascript">';
-            //     echo 'alert("File size must be less than 2MB")';
-            //     echo '</script>';
-            // }
-
-            // else {
-                $sql = " select * from registration_double_delegation where email1='" . $email1 . "'  OR email2='". $email2."'" ;
-                $res = mysqli_query($conn, $sql);
+           
+            $sql = " select * from registration_double_delegation where email1='" . $email1 . "'  OR email2='". $email2."'" ;
+            $res = mysqli_query($conn, $sql);
 
 
-                if (mysqli_num_rows($res) > 0) {
-                    echo '<script language="javascript">';
-                    echo 'alert("User with this email already exist")';
-                    echo '</script>';
-                } else {
-                    // $uploads_dir = '/uploads/double-delegation';
-                    
-                    // move_uploaded_file($tempname1, $uploads_dir.'/'.$pname1);
-                    // $uploaded_dir1 = "http://kiitmun.org/demo".$uploads_dir."/".$pname1;
-
-                    // move_uploaded_file($tempname2, $uploads_dir.'/'.$pname2);
-                    // $uploaded_dir2 = "http://kiitmun.org/demo".$uploads_dir."/".$pname2;
-
-                    $query = " insert into registration_double_delegation (
-                        name1, name2, gender1, gender2, email1, email2, contact11, contact12, contact21,contact22,
-                        age1, age2, course1, course2, college1, college2, nationality1, nationality2,
-                        previous_experience1, previous_experience_details1, previous_experience2, previous_experience_details2, 
-                        awards1, awards_details1,awards2, awards_details2, 
-                        committee1, country11, country12, country13, country14, country15,  
-                        committee2, country21, country22, country23, country24, country25,
-                        committee3, country31, country32, country33, country34, country35,
-                        reference_id, password, round )                                   
-                        
-                        
-                        values (
-                        '$name1', '$name2','$gender1', '$gender2','$email1', '$email2', '$contact11', '$contact12', '$contact21', '$contact22', 
-                        '$age1', '$age2','$course1', '$course2','$college1', '$college2','$nationality1','$nationality2',
-                        '$previous_experience1', '$previous_experience_details1','$previous_experience2', '$previous_experience_details2',  
-                        '$awards1', '$awards_details1', '$awards2', '$awards_details2', 
-                        '$committee1', '$country11', '$country12', '$country13', '$country14', '$country15',  
-                        '$committee2', '$country21', '$country22', '$country23', '$country24', '$country25',
-                        '$committee3', '$country31', '$country32', '$country33', '$country34', '$country35',
-                        '$ref_id', '$password', '$round' )";
+            if (mysqli_num_rows($res) > 0) {
+                echo '<script language="javascript">';
+                echo 'alert("User with this email already exist")';
+                echo '</script>';
+            } else {
 
 
-                    if (mysqli_query($conn, $query)) {
+                $query = " insert into registration_double_delegation (
+                    name1, name2, gender1, gender2, email1, email2, contact11, contact12, contact21,contact22,
+                    age1, age2, course1, course2, college1, college2, nationality1, nationality2,
+                    previous_experience1, previous_experience_details1, previous_experience2, previous_experience_details2, 
+                    awards1, awards_details1,awards2, awards_details2, 
+                    committee1, country11, country12, country13, 
+                    committee2, country21, country22, country23,
+                    committee3, country31, country32, country33,
+                    reference_id, password, round )                                   
+                    values (
+                    '$name1', '$name2','$gender1', '$gender2','$email1', '$email2', '$contact11', '$contact12', '$contact21', '$contact22', 
+                    '$age1', '$age2','$course1', '$course2','$college1', '$college2','$nationality1','$nationality2',
+                    '$previous_experience1', '$previous_experience_details1','$previous_experience2', '$previous_experience_details2',  
+                    '$awards1', '$awards_details1', '$awards2', '$awards_details2', 
+                    '$committee1', '$country11', '$country12', '$country13',  
+                    '$committee2', '$country21', '$country22', '$country23',
+                    '$committee3', '$country31', '$country32', '$country33',
+                    '$ref_id', '$password', '$round' )";
 
-                        $select_ca = "SELECT points FROM campus_ambassador WHERE reference_id = '".$ref_id."'";
-                        $ca = mysqli_query($conn,$select_ca);   
-    
-                        if(mysqli_num_rows($ca) > 0) {
-                        $row_ca = mysqli_fetch_assoc($ca);
-                        $actual_point = $row_ca['points'];
-                        $update_point = $actual_point+10;
-                        $update_ca = "UPDATE campus_ambassador SET points='".$update_point."' WHERE reference_id='".$ref_id."'";
-                        mysqli_query($conn,$update_ca);
-                        }
-                        
-                        echo '<script language="javascript">';
-                        echo 'alert("Successfully Registered")';
-                        echo '</script>';
-                        
-                        } 
-                    else {
-                        echo "Error: " . $query . "<br>" . mysqli_error($conn);
+
+                if (mysqli_query($conn, $query)) {
+
+                    $select_ca = "SELECT points FROM campus_ambassador WHERE reference_id = '".$ref_id."'";
+                    $ca = mysqli_query($conn,$select_ca);   
+
+                    if(mysqli_num_rows($ca) > 0) {
+                    $row_ca = mysqli_fetch_assoc($ca);
+                    $actual_point = $row_ca['points'];
+                    $update_point = $actual_point+10;
+                    $update_ca = "UPDATE campus_ambassador SET points='".$update_point."' WHERE reference_id='".$ref_id."'";
+                    mysqli_query($conn,$update_ca);
                     }
-                    // mysqli_query($conn, $query);
+
+                    echo '<script language="javascript">';
+                    echo 'alert("Successfully Registered")';
+                    echo '</script>';
+
+                    } 
+                else {
+                    echo "Error: " . $query . "<br>" . mysqli_error($conn);
                 }
+
             }
         }
-    // }
+    }
+
 ?>
 
 <section id="contact-second">
