@@ -73,16 +73,12 @@
             $country11 = mysqli_real_escape_string($conn, $_POST['national-double-country11']);
             $country12 = mysqli_real_escape_string($conn, $_POST['national-double-country12']);
             $country13 = mysqli_real_escape_string($conn, $_POST['national-double-country13']);
-            $country14 = mysqli_real_escape_string($conn, $_POST['national-double-country14']);
-            $country15 = mysqli_real_escape_string($conn, $_POST['national-double-country15']);
 
             // Commitee 2
             $committee2 = mysqli_real_escape_string($conn, $_POST['national-double-committee2']);
             $country21 = mysqli_real_escape_string($conn, $_POST['national-double-country21']);
             $country22 = mysqli_real_escape_string($conn, $_POST['national-double-country22']);
             $country23 = mysqli_real_escape_string($conn, $_POST['national-double-country23']);
-            $country24 = mysqli_real_escape_string($conn, $_POST['national-double-country24']);
-            $country25 = mysqli_real_escape_string($conn, $_POST['national-double-country25']);
 
 
             // Commitee 3
@@ -90,8 +86,7 @@
             $country31 = mysqli_real_escape_string($conn, $_POST['national-double-country31']);
             $country32 = mysqli_real_escape_string($conn, $_POST['national-double-country32']);
             $country33 = mysqli_real_escape_string($conn, $_POST['national-double-country33']);
-            $country34 = mysqli_real_escape_string($conn, $_POST['national-double-country34']);
-            $country35 = mysqli_real_escape_string($conn, $_POST['national-double-country35']);
+
 
             $ref_id = mysqli_real_escape_string($conn, $_POST['national-double-ref-id']);
             $password = hash("sha256",mysqli_real_escape_string($conn, $_POST['national-double-password']));
@@ -115,9 +110,9 @@
                     age1, age2, course1, course2, college1, college2, nationality1, nationality2,
                     previous_experience1, previous_experience_details1, previous_experience2, previous_experience_details2, 
                     awards1, awards_details1,awards2, awards_details2, 
-                    committee1, country11, country12, country13, country14, country15,  
-                    committee2, country21, country22, country23, country24, country25,
-                    committee3, country31, country32, country33, country34, country35,
+                    committee1, country11, country12, country13,
+                    committee2, country21, country22, country23,
+                    committee3, country31, country32, country33,
                     reference_id, password, round )                                   
                     
                     
@@ -126,9 +121,9 @@
                     '$age1', '$age2','$course1', '$course2','$college1', '$college2','$nationality1','$nationality2',
                     '$previous_experience1', '$previous_experience_details1','$previous_experience2', '$previous_experience_details2',  
                     '$awards1', '$awards_details1', '$awards2', '$awards_details2', 
-                    '$committee1', '$country11', '$country12', '$country13', '$country14', '$country15',  
-                    '$committee2', '$country21', '$country22', '$country23', '$country24', '$country25',
-                    '$committee3', '$country31', '$country32', '$country33', '$country34', '$country35',
+                    '$committee1', '$country11', '$country12', '$country13', 
+                    '$committee2', '$country21', '$country22', '$country23',
+                    '$committee3', '$country31', '$country32', '$country33',
                     '$ref_id', '$password', '$round' )";
 
 
@@ -383,29 +378,7 @@
                     </div>
                 </div>
             </div>
-            <div class="form-row">
-                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                </div>
-
-                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                    <div class="form-group">
-                        <select name="national-double-country14" class="form-control" id="national-double-first_committee_country_4" >
-                            <option value="" selected disabled>Country Choice 4</option>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                    <div class="form-group">
-                        <select name="national-double-country15" class="form-control" id="national-double-first_committee_country_5" >
-                            <option value="" selected disabled>Country Choice 5</option>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                </div>
-            </div>
+            
             <br>
 
             <div class="form-group">
@@ -442,30 +415,7 @@
                         </select>
                     </div>
                 </div>
-            </div>
-            <div class="form-row">
-                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                </div>
-
-                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                    <div class="form-group">
-                        <select name="national-double-country24" class="form-control" id="national-double-second_committee_country_4" >
-                            <option value="" selected disabled>Country Choice 4</option>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                    <div class="form-group">
-                        <select name="national-double-country25" class="form-control" id="national-double-second_committee_country_5" >
-                            <option value="" selected disabled>Country Choice 5</option>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                </div>
-            </div>
+            </div>                
             <br>
 
             <div class="form-group">
@@ -503,29 +453,7 @@
                     </div>
                 </div>
             </div>
-            <div class="form-row">
-                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                </div>
-
-                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                    <div class="form-group">
-                        <select name="national-double-country34" class="form-control" id="national-double-third_committee_country_4" >
-                            <option value="" selected disabled>Country Choice 4</option>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-4 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                    <div class="form-group">
-                        <select name="national-double-country35" class="form-control" id="national-double-third_committee_country_5" >
-                            <option value="" selected disabled>Country Choice 5</option>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-2 col-sm-6" style="padding: 0; padding-right: 1vmin;">
-                </div>
-            </div>
+          
             <br>
             <div class="col-xs-6" style="padding: 0; padding-right: 1vmin;">
                 <label for="ref-id">Reference ID</label>

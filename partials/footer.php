@@ -1,4 +1,4 @@
-<div class="footer-copyright">
+<div class="footer-copyright" style="background-color:#121212;">
 
     <ul
         style="list-style:none;background:rgba(0,0,0,0);overflow:hidden;color:#fff;padding:0;text-align: center;margin:0;">
