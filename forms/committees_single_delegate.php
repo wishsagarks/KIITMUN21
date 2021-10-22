@@ -1,4 +1,4 @@
-<option>United Nations General Assembly- Disarmament and International Security Committee (DISEC)</option>
+<option>WISH</option>
 <option>United Nations Framework convention on climate change (UNFCCC)</option>
 <option>United Nations Entity for Gender Equality and the Empowerment of Women (UN WOMEN)</option>
 <option>United Nations General Assembly- Special political and decolonization committee (SPECPOL)</option>
