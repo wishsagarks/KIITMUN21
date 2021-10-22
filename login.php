@@ -6,7 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title> KIIT eMUN </title>	
-	<meta name='description' content="Official Website of KIITMUN 2020">
+	<meta name='description' content="Official Website of KIITMUN 2021">
 
 
 
@@ -15,7 +15,7 @@
 
 	<!-- Special Styling -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-
+	<link rel="stylesheet" href="darkM.css">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:500,700,900" rel="stylesheet">
@@ -90,12 +90,12 @@
 		<img src="./assets/img/loader.gif">
 	 </section>
 		  
-	<section class="body-content">
+	<section class="body-content darkmode">
 		<nav class="navbar navbar-expand-lg navbar-light">
 			
 			<a class="navbar-brand" href="/">
-				<img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
-				<img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2">
+				<img style="height:47px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
+				<img style="height: 60px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2">
 			</a>
 		
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -109,12 +109,12 @@
 			<div class="collapse navbar-collapse " id="navbar">
 				<ul style="margin-left: 10vw;" class="navbar-nav navbar-right">
 				<li class="nav-item">
-					<a class="menu-item" href="/">Home </a>
+					<a class="menu-item" href="index.html">Home </a>
 				</li>
 				<li class="nav-item">
 					<a class="menu-item" href="about.html">About</a>
 				</li>
-				<li class="nav-item dropdown">
+				<!-- <li class="nav-item dropdown">
 					<a class="menu-item" data-toggle="dropdown" >eMun</a>
 					<ul class="dropdown-menu">
 						<li><a href="committees.html" class="dropdown-item">Committees</li></a>
@@ -123,11 +123,11 @@
 						<li><a href="#" class="dropdown-item">Study Guide</a></li>
 						<li><a href="rules-and-regulations.html" class="dropdown-item">Rules and Regulations</a></li>
 					</ul>
-				</li>
+				</li> -->
 				<li class="nav-item">
 					<a class="menu-item" href="gallery.php">Gallery</a>
 				</li>
-				<li class="nav-item dropdown">
+				<!-- <li class="nav-item dropdown">
 					<a class="menu-item" data-toggle="dropdown" >Partners</a>
 					<ul class="dropdown-menu">
 						<li><a href="sponsors.html" class="dropdown-item">Sponsors</li></a>
@@ -136,7 +136,7 @@
 				</li>
 				<li class="nav-item">
 					<a class="menu-item" href="campus-ambassador.php">Campus Ambassador</a>
-				</li>
+				</li> -->
 				<li class="nav-item">
 					<a class="menu-item" href="contact.php">Contact</a>
 				</li>
@@ -192,10 +192,10 @@
 						src="./assets/img/footer/tw.png" height="50" width="50"></a></li>
 			<li style="display:inline-block;padding:10px;list-style:none;"><a
 					href="https://www.linkedin.com/in/kiitmun/" target="_blank"><img
-						src="./assets/img/footer/li.png" height="55" width="55"></a></li>
+						src="./assets/img/footer/linkedin.png" height="55" width="55"></a></li>
 		</ul>
-			<center>
-			Copyright 2020 &copy; KIIT International Model United Nations
+		<center id="cr">
+			Copyright 2021 &copy; KIIT International Model United Nations
 			<br><a href="copyright.html" target="_blank">PRIVACY POLICY</a>
 			</center>
 		</div>

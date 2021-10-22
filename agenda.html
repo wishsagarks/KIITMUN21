@@ -2,11 +2,12 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="darkM.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title> KIIT eMUN </title>
-    <meta name='description' content="Official Website of KIITMUN 2020">
+    <meta name='description' content="Official Website of KIITMUN 2021">
 
 
 
@@ -87,12 +88,12 @@
         <img src="./assets/img/loader.gif">
     </section>
 
-    <section class="body-content">
+    <section class="body-content darkmode" id="main">
         <nav class="navbar navbar-expand-lg navbar-light">
 
             <a class="navbar-brand" href="/">
                 <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
-                <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2">
+                <img style="height:80px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
@@ -145,6 +146,9 @@
                     </li>
                     <li class="nav-item dropdown-btn">
                         <a class="menu-item dropdown-btn-item" href="registration.php">Registrations</a>
+                    </li>
+                    <li class="dark">
+                        <img src="assets/img/sun.png" id="icon">
                     </li>
             </div>
         </nav>
@@ -241,15 +245,28 @@
                         target="_blank"><img src="./assets/img/footer/tw.png" height="50" width="50"></a></li>
                 <li style="display:inline-block;padding:10px;list-style:none;"><a
                         href="https://www.linkedin.com/in/kiitmun/" target="_blank"><img
-                            src="./assets/img/footer/li.png" height="55" width="55"></a></li>
+                            src="./assets/img/footer/linkedin.png" height="55" width="55"></a></li>
             </ul>
-            <center>
-                Copyright 2020 &copy; KIIT International Model United Nations
+            <center id="copy">
+                Copyright 2021 &copy; KIIT International Model United Nations
                 <br><a href="copyright.html" target="_blank">PRIVACY POLICY</a>
             </center>
         </div>
 
     </section>
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function () {
+          
+            document.getElementById("main").classList.toggle("darkmode");
+            if (document.getElementById("main").classList.contains("darkmode")) {
+                icon.src = "assets/img/sun.png";
+            }
+            else {
+                icon.src ="assets/img/moon.png";
+            }
+        }
+    </script>
 </body>
 
 </html>

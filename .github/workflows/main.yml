@@ -27,6 +27,6 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          ftp-server: ftp://ftp.kiitmun.org/
+          ftp-server: ftp://ftp.kiitmun.org/httpdocs/
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
