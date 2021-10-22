@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="./assets/css/header.css" />
 
     <!-- Custom JS -->
-    <script src="./assets/js/index.js"></script>
+    <!-- <script src="./assets/js/index.js"></script> -->
     <script src="./assets/js/committee.js"></script>
         
     <script>
