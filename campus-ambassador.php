@@ -7,8 +7,6 @@ $leader_query = "SELECT name,college,points FROM campus_ambassador ORDER BY poin
 $leaderboard_result = mysqli_query($conn, $leader_query);
 ?>
 
-
-
 <head>
 <link rel="stylesheet" href="darkM.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
