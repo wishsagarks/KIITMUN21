@@ -244,7 +244,7 @@
                     <div class="slide-1"></div>
                     <div class="hero">
                         <hgroup>
-                            <h1>Registrations</h1>
+                            <h1>Registrations Round 1</h1>
                         </hgroup>
                     </div>
                 </div>
