@@ -244,7 +244,7 @@
                     <div class="slide-1"></div>
                     <div class="hero">
                         <hgroup>
-                            <h1>Registrations Round 1</h1>
+                            <h1>Registrations Round One</h1>
                         </hgroup>
                     </div>
                 </div>
@@ -270,7 +270,7 @@
                 <li style="display:inline-block;padding:10px;list-style:none;"><a href="https://www.facebook.com/kiitmun/" target="_blank"><img src="./assets/img/footer/fb.png" height="50" width="50"></a></li>
                 <li style="display:inline-block;padding:10px;list-style:none;"><a href="https://www.instagram.com/instakiitmun/" target="_blank"><img src="./assets/img/footer/it.png" height="60" width="60"></a></li>
                 <li style="display:inline-block;padding:10px;list-style:none;"><a href="https://twitter.com/kiitmun" target="_blank"><img src="./assets/img/footer/tw.png" height="50" width="50"></a></li>
-                <li style="display:inline-block;padding:10px;list-style:none;"><a href="https://www.linkedin.com/in/kiitmun/" target="_blank"><img src="./assets/img/footer/li.png" height="55" width="55"></a></li>
+                <li style="display:inline-block;padding:10px;list-style:none;"><a href="https://www.linkedin.com/in/kiitmun/" target="_blank"><img src="./assets/img/footer/linkedin.png" height="55" width="55"></a></li>
             </ul>
             <center id="cr">
                 Copyright 2021 &copy; KIIT International Model United Nations
