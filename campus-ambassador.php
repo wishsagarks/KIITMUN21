@@ -7,8 +7,6 @@ $leader_query = "SELECT name,college,points FROM campus_ambassador ORDER BY poin
 $leaderboard_result = mysqli_query($conn, $leader_query);
 ?>
 
-
-
 <head>
 <link rel="stylesheet" href="darkM.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -84,7 +82,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
 
     <!-- LOADING SECTION -->
     <section class="loading">
-        <img src="./assets/img/loader.gif">
+        <img src="./assets/img/loader.gif" style="background-color: black;height: 240px !important;width: 240px !important;">
     </section>
 
     <section class="body-content darkmode">
