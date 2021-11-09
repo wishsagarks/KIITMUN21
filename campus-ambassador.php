@@ -136,9 +136,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                 <li class="nav-item">
                     <a class="menu-item" href="contact.php">Contact</a>
                 </li>             
-                <li class="nav-item">
-                        <a class="menu-item" href="login.php">Login</a>
-                    </li>
+                
                 <li class="nav-item dropdown-btn">
                     <a class="menu-item dropdown-btn-item" href="registration.php">Registrations</a>
                 </li>
