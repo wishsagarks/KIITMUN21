@@ -234,7 +234,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                                 </div>
 
                                <div class="col-xs-12 col-sm-12 col-md-6">
-                                    <button style="position:relative;z-index:999" name="submit2" class="btn" type="submit">Submit</button>
+                                    <button style="position:relative;z-index:999" name="submit2" class="btn pt-2" type="submit">Submit</button>
                                 </div>
                             </div>
                         </form>
@@ -288,7 +288,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                                         <th>Points</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody style="color: white;">
                                     <?php
                                     while ($data = mysqli_fetch_assoc($leaderboard_result)) { ?>
                                         <tr>
