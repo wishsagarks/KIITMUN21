@@ -3,21 +3,13 @@ function getCountries(committeId) {
   var country1Id = committeId + "_country_1";
   var country2Id = committeId + "_country_2";
   var country3Id = committeId + "_country_3";
-  var country4Id = committeId + "_country_4";
-  var country5Id = committeId + "_country_5";
+
 
   var country1Element = document.getElementById(country1Id);
   var country2Element = document.getElementById(country2Id);
   var country3Element = document.getElementById(country3Id);
-  var country4Element = document.getElementById(country4Id);
-  var country5Element = document.getElementById(country5Id);
 
   var countryList = new Array(country1Element, country2Element, country3Element, country4Element, country5Element);
-
-  var country1 = country1Element.value;
-  var country2 = country2Element.value;
-  var country3 = country3Element.value;
-  var xhttp = new XMLHttpRequest();
 
   var matrix = {
   'United Nations General Assembly- Disarmament and International Security Committee (DISEC)':['Afghanistan','Albania','Algeria','Andorra','Angola','Antigua and Barbuda','Argentina','Armenia','Austria','Azerbaijan','Barbados','Belarus','Belize','Benin','Bolivia','Bosnia and Herzegovina','Brunei','Burkina Faso','Cabo Verde','Cameroon','Chad','Chile','China','Colombia','Comoros','Congo','Costa Rica','Côte d Ivoire','Cuba','Cyprus','Czech Republic (Czechia)','Denmark','Djibouti','Dominica','DR Congo','Ecuador','El Salvador','Equatorial Guinea','Eritrea','Eswatini','Fiji','Finland','France','Gabon','Gambia','Germany','Ghana','Greece','Grenada','Guatemala','Guinea','Guinea-Bissau','Guyana','Haiti','Holy See','India','Indonesia','Israel','Jamaica','Kazakhstan','Kenya','Kiribati','Laos','Latvia','Lebanon','Lesotho','Liberia','Liechtenstein','Lithuania','Madagascar','Malawi','Malaysia','Maldives','Mali','Malta','Mauritania','Mauritius','Mexico','Micronesia','Moldova','Montenegro','Morocco','Mozambique','Namibia','Nauru','Niger','Nigeria','North Korea','North Macedonia','Oman','Pakistan','Palau','Paraguay','Portugal','Qatar','Russia','Rwanda','Saint Kitts & Nevis','Saint Lucia','Samoa','San Marino','Sao Tome & Principe','Saudi Arabia','Senegal','Sierra Leone','Slovakia','Slovenia','Solomon Islands','Somalia','South Africa','St. Vincent & Grenadines','State of Palestine','Sudan','Suriname','Switzerland','Syria','Tajikistan','Tanzania','Thailand','Timor-Leste','Togo','Tonga','Trinidad and Tobago','Tunisia','Turkey','Turkmenistan','Tuvalu','Uganda','United States','Uzbekistan','Vanuatu','Yemen','Zambia'],
