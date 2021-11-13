@@ -109,17 +109,17 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                 <li class="nav-item">
                     <a class="menu-item active" href="about.html">About</a>
                 </li>
-                <!-- <li class="nav-item dropdown">
+                <li class="nav-item dropdown">
                     <a class="menu-item" data-toggle="dropdown" >eMun</a>
                     <ul class="dropdown-menu">
                         <li><a href="committees.html" class="dropdown-item">Committees</li></a>
                         <li><a href="agenda.html" class="dropdown-item">Agenda</li></a>
                         <li><a href="eb.html" class="dropdown-item">Executive Board</li></a>
-                        <li><a href="study-guide.html" class="dropdown-item">Study Guide</a></li>
+                        <!-- <li><a href="study-guide.html" class="dropdown-item">Study Guide</a></li>
                         <li><a href="newsletter.html" class="dropdown-item">Newsletter</a></li>
-                        <li><a href="rules-and-regulations.html" class="dropdown-item">Rules and Regulations</a></li>
+                        <li><a href="rules-and-regulations.html" class="dropdown-item">Rules and Regulations</a></li> -->
                     </ul>
-                </li> -->
+                </li>
                 <li class="nav-item">
                     <a class="menu-item" href="gallery.php">Gallery</a>
                 </li>
