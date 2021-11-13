@@ -233,7 +233,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                                     <input style="position:relative;z-index:999" type="email" name="ca-email" class="form-control" placeholder="Enter your email">
                                 </div>
 
-                               <div class="col-xs-12 col-sm-12 col-md-6">
+                               <div class="col-xs-12 col-sm-12 col-md-6 pt-2">
                                     <button style="position:relative;z-index:999" name="submit2" class="btn" type="submit">Submit</button>
                                 </div>
                             </div>
@@ -288,7 +288,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                                         <th>Points</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody style="color: white;">
                                     <?php
                                     while ($data = mysqli_fetch_assoc($leaderboard_result)) { ?>
                                         <tr>
