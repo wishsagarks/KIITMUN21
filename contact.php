@@ -180,7 +180,7 @@
             <div class="m-auto">
                 <h1>Connect With <b>Us</b></h1>
                 <hr>
-                <div data-tf-widget="onlaT4fj" style="width:100%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script> 
+                <div data-tf-widget="onlaT4fj" style="width:200%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script> 
         </section>
         <br>
        
