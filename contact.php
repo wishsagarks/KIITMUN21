@@ -183,8 +183,8 @@
         </section>
        
        
-        <div align="center">
-            <div data-tf-widget="onlaT4fj" style="width:200%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script> 
+        <div align="center" style="width:80%;">
+            <div data-tf-widget="onlaT4fj" style="width:100%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script> 
              <br>
             <p><i>For further queries, please feel free to contact <b>+91 9163299764,+91 7873252777</b></i></p>
         </div>
