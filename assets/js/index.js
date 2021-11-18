@@ -1,34 +1,26 @@
-var countDownDate = new Date("Jan 29, 2021 08:00:00").getTime();
+function updateTimer() {
+  future = Date.parse("Dec 17, 2021 11:30:00");
+  now = new Date();
+  diff = future - now;
 
-var x = setInterval(function() {
+  days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  hours = Math.floor(diff / (1000 * 60 * 60));
+  mins = Math.floor(diff / (1000 * 60));
+  secs = Math.floor(diff / 1000);
 
-  var now = new Date().getTime();
+  d = days;
+  h = hours - days * 24;
+  m = mins - hours * 60;
+  s = secs - mins * 60;
 
-  var distance = countDownDate - now;
-
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  if (days<10){
-  	days = "0"+days;
-  }
-  if (hours<10){
-  	hours = "0"+hours;
-  }
-  if (minutes<10){
-  	minutes = "0" + minutes;
-  }
-  if (seconds<10){
-  	seconds = "0" + seconds;
-  }
-  jQuery('#beta-first .layer .timer .days').html("<div class='time'>" + days + "</div><p>days</p>");
-  jQuery('#beta-first .layer .timer .hours').html("<div class='time'>" + hours + "</div><p>hours</p>");
-  jQuery('#beta-first .layer .timer .minutes').html("<div class='time'>" + minutes + "</div><p>mins</p>");
-  jQuery('#beta-first .layer .timer .seconds').html("<div class='time'>" + seconds + "</div><p>secs</p>");
-
-}, 1000);
+  document.getElementById("timer")
+      .innerHTML =
+      '<div>' + d + '<span>days</span></div>' +
+      '<div>' + h + '<span>hours</span></div>' +
+      '<div>' + m + '<span>minutes</span></div>' +
+      '<div>' + s + '<span>seconds</span></div>';
+}
+setInterval('updateTimer()', 1000);
 
 $(window).on("load", function() { 
   $("body").css("overflow-y","hidden");
