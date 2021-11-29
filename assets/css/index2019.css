@@ -14,7 +14,7 @@ h1{
     cursor: default;
 }
 h1 > b { 
-    color: #bab86c !important;
+    color: #bab86c !important; 
     font-family: 'Montserrat', sans-serif;
     cursor: default;
 }
