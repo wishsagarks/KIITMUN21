@@ -233,6 +233,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                                     <input style="position:relative;z-index:999" type="email" name="ca-email" class="form-control" placeholder="Enter your email">
                                 </div>
 
+
                                <div class="col-xs-12 col-sm-12 col-md-6 pt-2">
                                     <button style="position:relative;z-index:999" name="submit2" class="btn" type="submit">Submit</button>
                                 </div>
