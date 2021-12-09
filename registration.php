@@ -258,7 +258,7 @@
 
         <section id="committees-second">
             <h1 align="center">
-                Coming <b>Soon</b>
+                Closed 
             </h1>
         </section>
 
