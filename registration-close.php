@@ -27,7 +27,7 @@
            <a class="menu-item" href="about.html">About</a>
        </li>
        <li class="nav-item dropdown">
-           <a class="menu-item" data-toggle="dropdown">eMun</a>
+           <a class="menu-item" data-toggle="dropdown">MUN</a>
            <ul class="dropdown-menu">
                <li><a href="committees.html" class="dropdown-item">Committees</li></a>
                <li><a href="agenda.html" class="dropdown-item">Agenda</li></a>
@@ -70,7 +70,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title> KIIT eMUN </title>
+    <title> KIIT MUN </title>
     <meta name='description' content="Official Website of KIITMUN 2022">
 
 
@@ -194,7 +194,7 @@
                         <a class="menu-item" href="about.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="menu-item" data-toggle="dropdown">eMun</a>
+                        <a class="menu-item" data-toggle="dropdown">MUN</a>
                         <ul class="dropdown-menu">
                             <li><a href="committees.html" class="dropdown-item">Committees</li></a>
                             <li><a href="agenda.html" class="dropdown-item">Agenda</li></a>

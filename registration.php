@@ -6,8 +6,8 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="darkM.css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title> KIIT eMUN </title>
-    <meta name='description' content="Official Website of KIITMUN 2021">
+    <title> KIIT MUN </title>
+    <meta name='description' content="Official Website of KIITMUN 2022">
 
 
     <!-- Latest compiled and minified CSS -->
@@ -131,7 +131,7 @@
                         <a class="menu-item" href="about.html">About</a>
                     </li>
                     <!-- <li class="nav-item dropdown">
-                        <a class="menu-item" data-toggle="dropdown">eMun</a>
+                        <a class="menu-item" data-toggle="dropdown">MUN</a>
                         <ul class="dropdown-menu">
                             <li><a href="committees.html" class="dropdown-item">Committees</li></a>
                             <li><a href="agenda.html" class="dropdown-item">Agenda</li></a>
