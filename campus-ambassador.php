@@ -321,16 +321,16 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                 <div class="col-xs-12 col-sm-6">
                     <center><br><br><img style="border-radius:50%;height:205px;width:220px;" src="./assets/img/members/aniket-01.png">
                     </center>
-                    <h4>Aniket Majumder</h4>
+                    <h4>Sagnik Ghosh</h4>
                     <h3>Secretary General</h3>
-                    <a href="tel:+919163299764"><span>+91 9163299764</span></a>
+                    <a href="tel:+918144021921"><span>+91 8144021921</span></a>
                     <hr>
                 </div>
                 <div class="col-xs-12 col-sm-6">
                     <center><br><br><img style="border-radius:50%;height:200px;width:200px;" src="./assets/img/members/aditya-01.png"></center>
-                    <h4>Aditya Kumar Sinha</h4>
+                    <h4>Om Chaitanya</h4>
                         <h3>Chargé D'affaires</h3>
-                        <a href="tel:+919304704657"><span>+91 9304704657</span></a>
+                        <a href="tel:+919955818809"><span>+91 9955818809</span></a>
                     <hr>
                 </div>
             </div>
