@@ -319,7 +319,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
             <div class="row">
                 <br>
                 <div class="col-xs-12 col-sm-6">
-                    <center><br><br><img style="border-radius:50%;height:205px;width:220px;" src="./assets/img/members/aniket-01.png">
+                    <center><br><br><img style="border-radius:50%;height:205px;width:220px;" src="./assets/img/members/sagnik-ghosh.png">
                     </center>
                     <h4>Sagnik Ghosh</h4>
                     <h3>Secretary General</h3>
@@ -327,7 +327,7 @@ $leaderboard_result = mysqli_query($conn, $leader_query);
                     <hr>
                 </div>
                 <div class="col-xs-12 col-sm-6">
-                    <center><br><br><img style="border-radius:50%;height:200px;width:200px;" src="./assets/img/members/aditya-01.png"></center>
+                    <center><br><br><img style="border-radius:50%;height:200px;width:200px;" src="./assets/img/members/om-chaitanya.png"></center>
                     <h4>Om Chaitanya</h4>
                         <h3>Chargé D'affaires</h3>
                         <a href="tel:+919955818809"><span>+91 9955818809</span></a>
