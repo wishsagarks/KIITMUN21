@@ -4,8 +4,8 @@
 
 This repository contains all the files and documents required to run the website for future KIIT MUN.
 
-The Dev Branch is attached to the  `/dev` route.
-The Main Branch is attached to `/` route.
+The Dev Branch is attached to the  `/dev` route endpoint.
+The Main Branch is attached to `/` route endpoint.
 
 Deployment of the codes on the FTP server is automated using **GitHub Actions**.
 
